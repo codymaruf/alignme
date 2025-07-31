@@ -1,26 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme{
+    --color-red: #3F4A6B;
+
+  --color-primary-dark: #3F4A6B;
+  --color-primary-darker: #1F1F29;
+  --color-primary-light: #7FB3FF;
+  --color-primary-lighter: #E0E8FF;
+  --color-black: #000000;
+  --color-gray-light: #D9D9D9;
+  --color-white: #FFFFFF;
+
+  --font-heading-r: 'Goldman-regular', sans-serif;
+  --font-heading-b: 'Goldman-bold', sans-serif;
+  --font-body: 'Dm-sans', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'Goldman-regular';
+  src: url('/fonts/Goldman-Regular.ttf') format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Goldman-bold';
+  src: url('/fonts/Goldman-Bold.ttf') format('truetype');
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'Dm-Sans';
+  src: url('/fonts/DMSans-Regular.ttf') format('truetype');
 }
