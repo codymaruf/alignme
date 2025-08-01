@@ -46,7 +46,7 @@ export default function DynamicDailyInput({ goal }: { goal: string }) {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-6">
       <div className="max-w-md w-full space-y-6">
-        <h1 className="text-2xl font-bold text-center">Daily Check-In for "{goal}"</h1>
+        <h1 className="text-2xl font-bold text-center">Daily Check-In for &ldquo;{goal}&ldquo;</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
           {questions.map(({ id, question, type, placeholder }) => (
             <div key={id}>

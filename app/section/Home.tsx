@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Brain, CalendarCheck, BarChart2, Settings, Info, Target } from "lucide-react"
+import { Brain, CalendarCheck, Info, Target } from "lucide-react"
 
 export default function HomePage() {
   return (

@@ -18,7 +18,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mb-4">
-              Unlike traditional trackers, this app responds dynamically to your unique goals. It doesn't give generic advice.
+              Unlike traditional trackers, this app responds dynamically to your unique goals. It doesn&apos;t give generic advice.
               It listens, learns, and supports — tailored to your specific direction.
             </p>
 
