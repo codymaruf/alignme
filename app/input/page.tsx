@@ -1,5 +1,8 @@
 import Input from "@/app/section/Input";
 
 export default function InputPage() {
-  return <Input />;
+  const someGoal = "Learn Spanish"; // replace with your actual goal source
+
+  return <Input goal={someGoal} />;
 }
+
