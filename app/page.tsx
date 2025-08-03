@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -13,14 +13,15 @@ export default function Home() {
         AlignMe helps you align your daily actions with your goals. Get real-time feedback, eliminate distractions, and do more of what moves you forward.
       </p>
 
-      <div className="flex gap-4">
+      {/* <div className="flex gap-4">
         <Link href="/login">
           <Button>Login</Button>
         </Link>
         <Link href="https://alignme-pre-release.vercel.app/">
           <Button variant="outline">Join Waitlist</Button>
         </Link>
-      </div>
+      </div> */}
+      <h1>Hello</h1>
     </main>
   );
 }
